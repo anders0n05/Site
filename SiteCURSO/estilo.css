@@ -1,9 +1,13 @@
 body {
-
+margin:0;
 }
 
-#canvas{
+#teste{
+	background-color:green;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 200px;
+	height:200px;
+	border-radius: 20px;
 	
-	border:black 1px solid;
-	background:black;
-}
+	}
