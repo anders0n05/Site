@@ -1,0 +1,19 @@
+/*animacoes*/
+
+
+
+
+body {
+margin:0;
+}
+
+.exemplo{
+	
+	margin:100px;
+	width: 150px;
+	height:100px;
+	background-color:blue;
+	box-shadow:10px 10px 10px silver;
+	
+
+}
