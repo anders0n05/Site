@@ -1,0 +1,57 @@
+body {
+ margin: 0;
+ font-family: Arial;
+ font-size:12px;
+}
+
+.topo{
+	
+	height:30px;
+	width:auto;
+	background:#333;
+}
+.topoint{
+	
+	width:100%;
+	max-width:850px;
+	height:30px;
+	
+	margin:auto;
+	
+}
+
+.topleft{
+	width: 50%;
+	height:30px;
+    float:left; 
+    
+}
+.topleft ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+.topleft li{
+	height:30px;
+	line-height:30px;
+	float: left;
+	margin-left:8px;
+	margin-right:8px;
+}
+.toprigth{
+	width: 50%;
+	height:30px;
+    float:right; 
+	
+}
+.topleft li a{
+	
+	text-decoration:none;
+	color:white;
+	
+}
+.topleft li .ativo{
+	color:red;
+	
+}
