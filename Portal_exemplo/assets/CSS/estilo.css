@@ -41,9 +41,10 @@ body {
 }
 .toprigth{
 	width: 50%;
-	height:30px;
+	height:28px;
     float:right; 
-	
+	text-align: right;
+	margin-top:2px;
 }
 .topleft li a{
 	
@@ -51,7 +52,16 @@ body {
 	color:white;
 	
 }
-.topleft li .ativo{
-	color:red;
+.topobusca{
+	width:150px;
+	height:20px;
+	outline:0;
 	
+}
+.toprigth a{
+	float: right;
+	
+}
+.toprigth input{
+	float:right;
 }
