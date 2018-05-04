@@ -1,0 +1,39 @@
+body {
+ margin: 0;
+ font-family: Arial;
+ font-size:12px;
+}
+
+.topo2{
+	
+	height:95px;
+	width:auto;
+	
+}
+.topoint2{
+	
+	width:100%;
+	max-width:850px;
+	height:95px;
+	
+	margin:auto;
+	margin-top:2px;
+}
+
+.logo{
+	
+	width: 200px;
+	height: 95px;
+	float:left;
+	
+	margin-top:10px;
+	line-height: 95px;
+}
+
+.topo2 .banner{
+	width: 500px;
+	height:95px;
+	float:right;
+	margin-top: 10px;
+	
+}

@@ -56,7 +56,7 @@ body {
 	width:150px;
 	height:20px;
 	outline:0;
-	
+	margin-left:5px;
 }
 .toprigth a{
 	float: right;
@@ -64,4 +64,8 @@ body {
 }
 .toprigth input{
 	float:right;
+}
+.topright img{
+	
+	margin-right: 3px;
 }
