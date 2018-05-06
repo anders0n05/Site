@@ -9,5 +9,28 @@
 	max-width:850px;
 	margin:auto;
 	background:#808080;
-	height:50px;
+	height:28px;
+	margin-top:10px;
+}
+.titulo_int{
+	background:black;
+	color:white;
+	height:28px;
+	display:inline-block;
+	line-height: 28px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+.descrition_int{
+	
+	color:black;
+	height:28px;
+	display:inline-block;
+	line-height: 28px;
+	padding-left:5px;
+	
+	
+	
+	
 }
