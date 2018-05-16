@@ -1,6 +1,6 @@
 .lastnotices{
 	
-	height:50px;
+	height:30px;
 	
 }
 .lastnoticesint{
@@ -10,7 +10,7 @@
 	margin:auto;
 	background:#808080;
 	height:28px;
-	margin-top:10px;
+	margin-top:5px;
 }
 .titulo_int{
 	background:black;
@@ -30,7 +30,145 @@
 	line-height: 28px;
 	padding-left:5px;
 	
+		
+}
+.containerint{
+	width:100%;
+	max-width:850px;
+	margin:auto;
+	background:#000000;
+	
+}
+.rightside{
 	
 	
+	width:275px;
+	min-height:200px;
+	float:right;
+	
+	margin-left:4px;
+}
+.leftside{
+	float:left;
+	width:570px;	
+}
+.widget{
+	background:white;
+	border:1px solid gray;
+	margin-bottom:5px;
+	
+}
+.widget_titulo{
+	height:30px;
+	border-bottom: 1px solid gray;
+    background:#333333;
+	line-height:30px;
+	text-align:center;
+	font-family"Arial Rounded MT Bold";
+	font-size:16px;
+	color:white;
+}
+.widget_conteudo{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.noticia_item{
+	margin:0px 5px;
+	padding:5px 0;
+	text-align:left;
+	border-bottom:1px solid #C0C0C0;
+	
+}
+.noticia_item a{
+	text-decoration:none;
+	color:black;
+}
+.noticia_item a:hover{
+	width:30px;
+	background:#808080;
+	color:white;
+	
+}
+.slideShow{
+	height:335px;
+	background:black;
+	overflow: hidden; /*responsavel por fazer o slide das imagen sficarem rodando*/
+	margin-bottom: 20px;
+}
+.SlideShowArea{
+	height:335px;
+	/*nao defino a largura dele pois sera um site responsivo*/
+	transition:all 1s;
+	width:10000px;
+}
+.Slide{
+	height:265px;
+	float:left;/* importante essa propriedade pra fazer a div ficar uma do lado da outra*/
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.descImagem{
+	height:70px;
+	background-image: linear-gradient(to top, #616161,#9E9E9E, #FAFAFA, rgba(255,255,255,.4));	
+	margin-top: 265px;
+    font-family:"Arial Rounded MT Bold";;
+    font-size:26px;
+    padding-left:5px;
+}
+.subtitulo{
+	font-size: 18px;
+}
+.SlideBolinha{
+	position:absolute;
+	width:100px;
+	height:30px;
+	margin-left:5px;
+	
+}
+.bolinha img{
+	width:10px;
+	height:10px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	
+}
+.noticiaArea1{
+	width:350px;
+	height:350px;
+	float:left;
+	background:black;
+}
+.noticiaArea2{
+    width:210px;
+	height:350px;
+	float:left;
+	margin:0px 2px;
+}
+.noticiaItem{
+	text-align:left;
+	height:88px;/*colocar altura para nao quebrar dentro da div*/
+}
+.noticiaImg{
+	width:80px;
+	height:80px;
+	border:1px solid silver;
+	padding:1px;
+	float:left;
+	margin-right:2px;
+}
+.noticiaTitulo{
+	margin-left:6px;
+	font-size:16px;
+	width:200px;
+	
+}
+.noticiaSubtitulo{
+	width:200px;
+	font-size:12px;
+	margin-left:6px;
+	color:silver;
 	
 }

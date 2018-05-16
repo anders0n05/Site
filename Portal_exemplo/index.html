@@ -20,8 +20,10 @@
 		<link href="assets/CSS/estilo2.css" rel="stylesheet"/>
 		<link href="assets/CSS/menuprincipal.css" rel="stylesheet"/>
 		<link href="assets/CSS/style_menu.css" rel="stylesheet"/>
-		<link href="assets/CSS/corpo_site.css" rel="stylesheet"/>
-
+		<link href="assets/CSS/corpo_site.css" rel="stylesheet"/>.js" rel="*"/>
+        
+		
+        <script type="text/javascript" src="assets/JS/script.js"></script>
 
 	
 	</head>
@@ -63,7 +65,7 @@
 					
 				
 					<div class="banner">
-						<img src="assets/images/banner.jpg";/>
+						<img src="assets/images/banner.jpg"/>
 					</div>
 					<div class="logo">
 						<img src="assets/images/mega_portal2.jpg" width="200" border="0"/>
@@ -128,7 +130,140 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    
-	
+	  
+	    <div class="container">
+	  		  <div class="containerint">
+	  		  		<div class="leftside">
+	  		  			<div class="slideShow" id="slideShow">
+	  		  					<div class="SlideBolinha">
+	  		  						<div class ="bolinha"onclick="mudarSlide(0)"> 
+	  		  							<img src="assets/images/circle.png" /> 							
+	  		  						</div>
+	  		  						<div class ="bolinha"onclick="mudarSlide(1)">  	
+	  		  							<img src="assets/images/circle.png" /> 							
+	  		  						</div>
+	  		  						<div class ="bolinha"onclick="mudarSlide(2)">  	
+	  		  							<img src="assets/images/circle.png" /> 							
+	  		  						</div>
+	  		  						<div class ="bolinha"onclick="mudarSlide(3)">  
+	  		  							<img src="assets/images/circle.png" /> 								
+	  		  						</div>
+	  		  					</div>
+	  		  					<div class="SlideShowArea">
+	  		  						
+	  		  						 <div class="Slide"style="background-image: url('assets/images/imagem1.jpg')">
+	  		  						 	<div class="descImagem">
+	  		  						 		<div class="TituloImagem">Titulo de Teste</div>
+	  		  						 		<div class="subtitulo">Subtitulo de Teste</div>
+	  		  						 	</div>
+	  		  						 </div>
+	  		  						  <div class="Slide"style="background-image: url('assets/images/imagem2.jpg')">
+	  		  						 	<div class="descImagem">
+	  		  						 		<div class="TituloImagem">Titulo de Teste</div>
+	  		  						 		<div class="subtitulo">Subtitulo de Teste</div>
+	  		  						 	</div>
+	  		  						 </div>
+	  		  						  <div class="Slide"style="background-image: url('assets/images/imagem3.jpg')">
+	  		  						 	<div class="descImagem">
+	  		  						 		<div class="TituloImagem">Titulo de Teste</div>
+	  		  						 		<div class="subtitulo">Subtitulo de Teste</div>
+	  		  						 	</div>
+	  		  						 </div>
+	  		  						  <div class="Slide"style="background-image: url('assets/images/imagem4.jpg')">
+	  		  						 	<div class="descImagem">
+	  		  						 		<div class="TituloImagem">Titulo de Teste</div>
+	  		  						 		<div class="subtitulo">Subtitulo de Teste</div>
+	  		  						 	</div>
+	  		  						 </div>
+	  		  					</div>
+	  		  				
+	  		  			</div>
+	  		  				<div class="widget">
+	  		  				<div class="widget_titulo"> Noticias</div>
+	  		  				<div class="widget_conteudo">
+	  		  					<div class="noticiaArea1"></div>
+	  		  					<div class="noticiaArea2">
+	  		  						<div class="noticiaItem">
+  										<div class="noticiaImg">
+  											<img src="assets/images/exemplo.png"border="0" width="80" height="80">
+  										</div>
+  										<div class="noticiaTitulo">Teste de Titulo</div>
+  										<div class="noticiaSubtitulo">Subitutilo</div>
+  									</div>
+  									<div class="noticiaItem">
+  										<div class="noticiaImg">
+  											<img src="assets/images/exemplo.png"border="0" width="80" height="80">
+  										</div>
+  										<div class="noticiaTitulo">Teste de Titulo</div>
+  										<div class="noticiaSubtitulo">Subitutilo</div>
+  									</div>
+  									<div class="noticiaItem">
+  										<div class="noticiaImg">
+  											<img src="assets/images/exemplo.png"border="0" width="80" height="80">
+  										</div>
+  										<div class="noticiaTitulo">Teste de Titulo</div>
+  										<div class="noticiaSubtitulo">Subitutilo</div>
+  									</div>
+	  		  					</div>
+  									
+	  		  					</div>
+	  		  					<!--Corrige o erro de as divs nao ficar dentro da div mae principal certo-->
+	  		  					<div style="clear: both"></div>
+	  		  			</div>
+						
+	  		  			
+	  		  		</div>
+	  		  		<div class="rightside">
+	  		  			<div class="widget">
+	  		  				<div class="widget_titulo">Icones</div>
+	  		  				<div class="widget_conteudo">
+	  		  					<img src="assets/images/gag.png" width="28" />
+	  		  					<img src="assets/images/spotify.png" width="28" />
+	  		  					<img src="assets/images/git.png" width="28"/>
+	  		  					<img src="assets/images/hangout.png" width="28" />
+	  		  				</div>
+	  		  			</div>
+	  		  			<div class="widget">
+	  		  				<div class="widget_titulo">Ultimas Noticias</div>
+	  		  				<div class="widget_conteudo">
+	  		  					<div class="noticia_item">
+	  		  						<a href="google.com.br">Texto da ultima noticia
+	  		  						teste da ultima noticia</a>
+	  		  					</div>
+	  		  					<div class="noticia_item">
+	  		  						<a href="google.com.br">Texto da ultima noticia
+	  		  						teste da ultima noticia</a>
+	  		  					</div>
+	  		  					<div class="noticia_item">
+	  		  						<a href="google.com.br">Texto da ultima noticia
+	  		  						teste da ultima noticia</a>
+	  		  					</div>
+	  		  					<div class="noticia_item">
+	  		  						<a href="google.com.br">Texto da ultima noticia
+	  		  						teste da ultima noticia</a>
+	  		  					</div>
+	  		  					<div class="noticia_item">
+	  		  						<a href="google.com.br">Texto da ultima noticia
+	  		  						teste da ultima noticia</a>
+	  		  					</div>
+	  		  				</div>
+	  		  			</div>
+						<div class="widget">
+	  		  				<div class="widget_titulo">Publicidade</div>
+	  		  				<div class="widget_conteudo">
+	  		  					<img src="assets/images/dolly.jpg" width="200" height="200" border="0" />
+	  		  				</div>
+	  		  			</div>
+	  		  			<div class="widget">
+	  		  				<div class="widget_titulo">Encontre-nos no Facebook</div>
+	  		  				<div class="widget_conteudo">
+	  		  					<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=479064795843412" width="200" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	  		  				</div>
+	  		  			</div>
+
+	  		  		</div>
+	  		  		
+	  		  </div>
+	    </div>
 	</body>
 </html>
