@@ -139,7 +139,7 @@
 	width:350px;
 	height:350px;
 	float:left;
-	background:black;
+	
 }
 .noticiaArea2{
     width:210px;
@@ -171,4 +171,15 @@
 	margin-left:6px;
 	color:silver;
 	
+}
+.noticiaBig{
+	margin-left:10px;
+}
+.noticiaBig .noticiaImg{
+	width:320px;
+	height:222px;
+}
+.noticiaBig .noticiaTitulo{
+	width:320px;
+	font-size:28px;
 }

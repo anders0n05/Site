@@ -1,0 +1,33 @@
+/*animacoes*/
+
+
+
+
+body {
+margin:0;
+}
+.container{
+	display:flex;
+	background:green;
+    justify-content:center;/*centraliza o conteudo do container na horizontal, se tiver flex=columns uso o align items*/
+    /*justificar na vertical*/
+    height:200px;
+    align-items:center;/*alinha na coluna,se estiver com flex=row*/
+    /*outros comandos
+        justify-content-flex-start -> alinha do inicio
+        justify-content:flex-end  -> direita pra esquerda
+        justify-content:space-arround  -> deixa espaco entre o conteudo
+		etc...
+    */
+}
+.container div{
+	
+	/*flex:1; /* serve para preencher o tamanho da tela automatico,pertence ao grupo 1 , e vai ser dividido entre os componentes desse grupo*/
+	/*tambem significa a quantidade do tamanho dele, se eu colocar na propriedade flex=2, vai valer o dobro das outras divs*/width:500px;
+	width:100px;
+    height:100px;
+	background-color:azure;
+	margin:10px;
+	padding:10px;
+	font-size:20px;
+}

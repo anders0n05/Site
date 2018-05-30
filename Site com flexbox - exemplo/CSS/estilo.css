@@ -1,0 +1,75 @@
+
+/* CSS Document */
+/*inicio do cabecalho*/
+body{
+	margin:0;
+}
+header{
+	display:flex; /*deixa a div em flexbox*/
+	justify-content:center; /*centraliza a div*/
+	height:120px;
+}
+.container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:850px;
+	
+	
+}
+.logo{
+	
+}
+.menu{
+	
+	display:flex;
+	align-items:center;
+}
+nav ul,
+nav li{
+	list-style:none;
+	padding:5px;
+	margin:0;
+}
+nav ul{
+	display:flex;/*menu um do lado do outro*/
+}
+
+nav a{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#727272;
+	font-family:arial,Helvetica;
+}
+nav.active a,
+nav a:hover{
+	background-color:#39AAE1;
+	color:white;
+}
+
+/* ------ fim do estilo do cabecalho*/
+
+#banner{
+	
+	height:500px;
+	background-position:center;
+	background-size:cover;/*se adapta com o monitor acessado ou celular*/
+	background-image:no-repeate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
