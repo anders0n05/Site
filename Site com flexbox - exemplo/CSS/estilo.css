@@ -118,7 +118,7 @@ nav a:hover{
 .banner_title{
 	font-size:25px;
 }
-.banner_desc{
+.banner_descripition{
 	font-size:12px;
 	margin-top:20px;
 	margin-bottom:20px;
@@ -135,15 +135,24 @@ nav a:hover{
 	background:#333333;
 	border:none;
 }
-.banner_hours {
-    display:flex;
-   
+.banner_desc{
+	font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+	display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #0079c7;
+ 	
+}
+.banner_info{
+    
     margin-bottom:15px;
     border-bottom: 1px solid #39aae1;
     padding-bottom:12px;
 }
-
-
+.banner_mae{
+	justify-content:center;
+}
 
 
 
