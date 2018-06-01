@@ -1,6 +1,9 @@
 
 /* CSS Document */
 /*inicio do cabecalho*/
+*{
+	font-family:Arial;
+}
 body{
 	margin:0;
 }
@@ -52,16 +55,93 @@ nav a:hover{
 /* ------ fim do estilo do cabecalho*/
 
 #banner{
-	
+	display:flex;
+	justify-content:center;
 	height:500px;
 	background-position:center;
 	background-size:cover;/*se adapta com o monitor acessado ou celular*/
 	background-image:no-repeate;
 }
 
-
-
-
+.column{
+	
+	flex-direction:column;/*conteudo segue um abaixo do outro*/
+	
+}
+.banner_headline{
+	width:850px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	flex:1;
+	
+}
+.banner_headline h1{
+	color:#FFFFFF;
+	font-size:70px;
+	text-shadow:0px 1px 0 black;
+	margin:0;
+	padding:0;
+	max-width:350px;
+}
+.banner_headline h2{
+	color:#FFFFFF;
+	max-width:300px;
+	font-size:20px;
+	text-shadow:0px 1px 0 black;
+	margin:0;
+	padding:0;
+	margin-top:30px;
+}
+.banner_options{
+	heigth:210px;
+	display:flex;
+	
+}
+.banner1,
+.banner2,
+.banner3{
+	flex:1;
+	color:white;
+	padding:20px;
+}
+.banner1{
+	width:500px;
+	background:#39aae1;
+}
+.banner2{
+	background:#0079c7
+}
+.banner3{
+	background:#2b4c99;
+}
+.banner_title{
+	font-size:25px;
+}
+.banner_desc{
+	font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.banner_options a{
+	display:inline-block;
+	border:1px solid white; 
+	padding:5px;
+	color:#FFFFFF;
+	font-size:10px;
+	text-decoration:none;
+}
+.banner_options a:hover{
+	background:#333333;
+	border:none;
+}
+.banner_hours {
+    display:flex;
+   
+    margin-bottom:15px;
+    border-bottom: 1px solid #39aae1;
+    padding-bottom:12px;
+}
 
 
 
