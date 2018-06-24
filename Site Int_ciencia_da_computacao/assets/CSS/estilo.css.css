@@ -1,10 +1,38 @@
 
-ul{
-	list-style:none;
-	padding:0px;
-}
-ul li a{
+body{
+	margin:0;
 	
-	color:white;
-	text-decoration:none;
+}
+
+.topo{
+
+	margin:auto;
+  display:flex;
+	justify-content:center;
+}
+.topo_int{
+	flex:1;
+}
+.divisao{
+	 border-bottom:2px solid gray;
+}
+.Corpo_site{
+	display:flex;
+	justify-content:center;
+	 
+}
+.Elementos_corpo{
+	
+	max-width:900px;
+ 
+}
+audio{
+	margin-top:25px;
+	width:900px;
+}
+.lateral{
+ width:250px;
+ height:200px;
+ background:black;
+ color:white;
 }

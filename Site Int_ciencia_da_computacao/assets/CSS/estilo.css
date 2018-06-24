@@ -1,0 +1,37 @@
+
+body{
+	margin:0;
+	
+}
+
+.topo{
+
+	margin:auto;
+  display:flex;
+	justify-content:center;
+}
+.topo_int{
+	flex:1;
+}
+.divisao{
+	 border-bottom:2px solid gray;
+}
+.Corpo_site{
+	display:flex;
+	justify-content:center;
+	 
+}
+.Elementos_corpo{
+	
+	max-width:900px;
+ 
+}
+audio{
+	
+	width:900px;
+}
+.lateral{
+	width:250px;
+	background:black;
+  color:white;
+}
